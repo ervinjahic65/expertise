@@ -948,11 +948,10 @@
                                                 <h4>Company</h4>
                                                 <div class="footer-widget">
                                                     <small>
-														CIN - U01631KA2010PTC096843 <br>
-														Address - 2, Western Urban Rd, Davri Nagar, Siddharth Nagar, <br>
-														Santacruz East, Mumbai, Maharashtra 400055, India <br>
-														Phone - 0674 2702416 <br>
-													</small>
+														CIN – U74900PN2022PTC143256 <br>
+														Address – No. 27, 6th Main Road, 2nd Stage, Padmanabhanagar, Bengaluru, Karnataka 560070, India <br>
+														Phone – 080 41234567 <br>
+													</small>													
                                                 </div>
                                             </div>
                                         </div>
@@ -979,5 +978,31 @@
                 </div>
             </div>
         </div>
+		<script>
+			document.addEventListener('DOMContentLoaded', function() {
+			  // Only apply toggling on mobile widths
+			  if (window.innerWidth <= 768) {
+				// Select all footer widgets
+				var widgets = document.querySelectorAll('.widget');
+				widgets.forEach(function(widget) {
+				  var header = widget.querySelector('h4');
+				  // The content to toggle is the next sibling after the <h4>
+				  var content = header.nextElementSibling;
+				  // Hide content by default
+				  content.style.display = 'none';
+				  // Make header tappable
+				  header.style.cursor = 'pointer';
+				  // Toggle on click
+				  header.addEventListener('click', function() {
+					if (content.style.display === 'none') {
+					  content.style.display = 'block';
+					} else {
+					  content.style.display = 'none';
+					}
+				  });
+				});
+			  }
+			});
+		</script>			
     </body>
 </html>
