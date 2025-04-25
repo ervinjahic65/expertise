@@ -2,7 +2,7 @@
 /*
 Theme Name: Salient Child Theme
 Description: This is a custom child theme for Salient
-Theme URI:   https://themeforest.net/item/salient-responsive-multipurpose-theme/4363266
+Theme URI:   
 Author: Veracity
 Author URI:  Meetveracity.com
 Template: salient
@@ -10279,7 +10279,6 @@ changing the HTML would require touching a lot of pages. Instead, CSS handled th
   width: auto;
   height: 195px;
   box-sizing: border-box;
-  background: url(https://images.ctfassets.net/ihx0a8chifpc/2uTVCl4WzwqJP5ywFNzukO/8acb2b2…/placekitten.jpeg?w=1280&q=60&fm=webp);
   background-size: contain;
 }
 @media screen and (min-width: 820px) {
