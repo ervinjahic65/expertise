@@ -21479,6 +21479,7 @@ body #footer-outer .social .fa.fa-linkedin:before {
 }
 #copyright .container > .col {
   display: flex;
+  justify-content: center;
 }
 #copyright img.footer-logo {
   margin-bottom: 0;
