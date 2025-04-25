@@ -767,6 +767,15 @@ body #slide-out-widget-area-bg{
        height:calc(30vh - 48px);
    }
 }
+@media only screen and (max-width: 1024px) {
+   .p-custom {
+      display: none !important;
+   }
+   .internal-hero--no-html-text-reveal .internal-hero__page-title {
+      top: 0 !important;
+      font-size: 32px !important
+   }
+ }
 #header-outer #logo img,#header-outer .logo-clone img,#header-outer .logo-spacing img{
    height:30px;
 }
