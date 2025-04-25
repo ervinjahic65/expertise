@@ -61,10 +61,20 @@ Version: 1.0
 .leadership-grid__card .nectar-button span,
 .internal-hero--no-html-text-reveal .internal-hero__page-title {
   position: absolute !important;
-  left: 30%;
-  height: 1px;
-  width: 1px;
+  left: 10%;
+  top: -180px;
   color: #000;
+  font-size: 56px;
+}
+
+.internal-hero__html-text p {
+  font-weight: 900 !important;
+}
+
+.p-custom {
+  background-color: gray;
+  position: absolute;
+  top: 244px;
 }
 
 /*
