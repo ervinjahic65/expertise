@@ -243,13 +243,6 @@ Notes:
   }
 }
 
-@font-face {
-  font-family: "veracity-custom-icons";
-  src: url("fonts/veracity-custom-icons.ttf?37py4") format("truetype"), url("fonts/veracity-custom-icons.woff?37py4") format("woff"), url("fonts/veracity-custom-icons.svg?37py4#veracity-custom-icons") format("svg");
-  font-weight: normal;
-  font-style: normal;
-  font-display: block;
-}
 [class^=vcg__custom-icon--], [class*=" vcg__custom-icon--"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: "veracity-custom-icons" !important;
