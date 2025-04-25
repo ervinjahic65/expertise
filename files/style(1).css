@@ -69,12 +69,13 @@ Version: 1.0
 
 .internal-hero__html-text p {
   font-weight: 900 !important;
+  font-size: 18px;
 }
 
 .p-custom {
   background-color: gray;
   position: absolute;
-  top: 244px;
+  top: 226px;
 }
 
 /*
@@ -5398,11 +5399,11 @@ body.mobile.material[data-header-color=light] #header-outer.transparent .slide-o
 }
 
 body #header-outer #top #logo img {
-  height: 1.875rem !important;
+  height: 3.875rem !important;
 }
 @media screen and (min-width: 600px) {
   body #header-outer #top #logo img {
-    height: 2.75rem !important;
+    height: 4.75rem !important;
   }
 }
 
