@@ -9771,7 +9771,7 @@ changing the HTML would require touching a lot of pages. Instead, CSS handled th
   letter-spacing: -0.242px;
 }
 .link-list__item a:hover, .link-list__item a:focus, .link-list__item a:active {
-  color: var(--color-primary);
+  pointer-events: none !important;
 }
 @media (min-width: 690px) {
   .link-list .row_col_wrap_12_inner {
