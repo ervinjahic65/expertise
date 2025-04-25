@@ -61,10 +61,10 @@ Version: 1.0
 .leadership-grid__card .nectar-button span,
 .internal-hero--no-html-text-reveal .internal-hero__page-title {
   position: absolute !important;
+  left: 30%;
   height: 1px;
   width: 1px;
-  overflow: hidden;
-  clip: rect(1px, 1px, 1px, 1px);
+  color: #000;
 }
 
 /*
@@ -6407,9 +6407,7 @@ body.material .btn-animated-border.nectar-button:hover::after {
 .internal-hero:not([data-initialized]) {
   aspect-ratio: unset;
 }
-.internal-hero:not([data-initialized]) .internal-hero__html-text {
-  display: none;
-}
+
 @media (min-width: 1000px) {
   .internal-hero {
     aspect-ratio: 150/65;
@@ -6480,7 +6478,7 @@ body.material .btn-animated-border.nectar-button:hover::after {
 }
 @media (min-width: 1000px) {
   .internal-hero__html-text {
-    opacity: 0;
+    opacity: 1;
     padding-inline: var(--default-horizontal-gutters);
     transform: translateY(20%);
   }
@@ -6508,13 +6506,7 @@ body.material .btn-animated-border.nectar-button:hover::after {
     max-width: 50%;
   }
 }
-.internal-hero__page-title::after {
-  color: var(--color-primary);
-  content: ".";
-}
-.internal-hero--no-html-text-reveal .internal-hero__page-title::after {
-  display: none;
-}
+
 .internal-hero--no-period .internal-hero__page-title::after {
   content: none;
 }
